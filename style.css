@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f7fa;
+    color: #333;
+}
+
+/* 導覽列 */
+header {
+    position: sticky;
+    top: 0;
+    background: #1e2a38;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #00c3ff;
+}
+
+/* Hero */
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(to right, #1e2a38, #2d3e50);
+    color: white;
+}
+
+.hero img {
+    width: 150px;
+    border-radius: 50%;
+    border: 4px solid white;
+}
+
+.goal {
+    color: #00c3ff;
+}
+
+/* 卡片 */
+.card {
+    background: white;
+    margin: 30px auto;
+    padding: 25px;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* 技能標籤 */
+.skills span {
+    display: inline-block;
+    background: #1e2a38;
+    color: white;
+    padding: 8px 12px;
+    margin: 5px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+/* footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #1e2a38;
+    color: white;
+}
+
+/* 手機版 */
+@media (max-width: 768px) {
+    .card {
+        width: 90%;
+    }
+
+    nav {
+        display: none;
+    }
+}
